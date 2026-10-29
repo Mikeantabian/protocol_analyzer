@@ -1,0 +1,40 @@
+# All generated output (synthesis, implementation, bitstreams, sim artifacts)
+build/
+
+# Vivado (in case it's ever run outside build/)
+.Xil/
+*.jou
+*.log
+*.str
+*.backup.*
+webtalk*
+usage_statistics_webtalk.*
+clockInfo.txt
+*.cache/
+*.hw/
+*.runs/
+*.sim/
+*.ip_user_files/
+*.gen/
+
+# GHDL
+*.cf
+*.o
+work/
+
+# Waveforms
+*.ghw
+*.vcd
+*.fst
+*.wdb
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editors / OS
+.vscode/
+*.swp
+*~
+.DS_Store
